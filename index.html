@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>DK</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- 🎥 VÍDEO DE FUNDO -->
+<video autoplay muted loop playsinline id="bg-video">
+    <source src="assets/background.mp4" type="video/mp4">
+</video>
+
+<!-- 🌑 OVERLAY (CORRIGIDO) -->
+<div class="overlay"></div>
+
+<!-- 🌧️ CHUVA -->
+<div id="particles"></div>
+
+<!-- 🚗 CARRO -->
+<div class="car-container">
+    <img src="assets/car.png" class="car">
+</div>
+
+<!-- 🎬 INTRO -->
+<div id="intro">
+    <h1>DK</h1>
+    <p>PRESSIONE ENTER PARA ENTRAR</p>
+</div>
+
+<!-- CONTEÚDO -->
+<div class="container">
+
+    <div class="profile-card">
+
+        <div class="avatar">
+            <img src="assets/fundo.gif" alt="DK">
+        </div>
+
+        <h1>DK</h1>
+
+        <p class="bio">
+            Foco 💵.
+        </p>
+
+        <div class="country">
+            🇧🇷 Brasil
+        </div>
+
+        <div class="socials">
+
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+            <a href="#"><i class="fab fa-discord"></i></a>
+            <a href="#"><i class="fab fa-twitch"></i></a>
+
+        </div>
+
+        <div class="info-box">
+            <span>🏎️ Carro Favorito</span>
+            <h3>Challenger SRT Demon</h3>
+        </div>
+
+        <div class="info-box">
+            <span>🎮</span>
+            <h3>Forza Horizon 6</h3>
+        </div>
+
+        <div class="info-box">
+            <span>🎵 Música Favorita</span>
+            <h3>Spotify</h3>
+
+            <iframe
+                style="border-radius:12px;margin-top:10px"
+                src="https://open.spotify.com/embed/track/42XLOKRo2bv2Ne9lTOGSQA"
+                width="100%"
+                height="80"
+                frameborder="0"
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+            </iframe>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
